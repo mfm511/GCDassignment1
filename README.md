@@ -116,7 +116,7 @@ linktosignal – This is an identifier that links the summary table to the inert
 <b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
 
 
-# The run_analysis.R script
+## The run_analysis.R script
 
 <b>IMPORTANT NOTE:</b> load the plyr package before running this script.
 
