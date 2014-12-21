@@ -107,18 +107,15 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <li> total_acc_y - The acceleration signal from the smartphone accelerometer Y axis in standard gravity units 'g'.  </li>
 <li> total_acc_z  - The acceleration signal from the smartphone accelerometer Z axis in standard gravity units 'g'. </li>
 </ol>
-
 <b>Each of these tables consists of 129 columns specified below</b>
-<ol><li>
-linktosignal – This is an identifier that links the summary table to the inertial signal tables
-</li></ol>
+1. linktosignal – This is an identifier that links the summary table to the inertial signal tables
 
 <b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
 
 
-### The run_analysis.R script
+# The run_analysis.R script
 
-<b>IMPORTANT NOTE:</b> load the plyr package before running this script.
+<b>IMPORTANT NOTE: load the plyr package before running this script.</b>
 
 <b>The run_analysis.R script does the following:</b>
 <ol><li>
