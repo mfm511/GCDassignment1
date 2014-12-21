@@ -106,7 +106,7 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <li> total_acc_x - The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.  </li>
 <li> total_acc_y - The acceleration signal from the smartphone accelerometer Y axis in standard gravity units 'g'.  </li>
 <li> total_acc_z  - The acceleration signal from the smartphone accelerometer Z axis in standard gravity units 'g'. </li>
-<ol>
+</ol>
 
 <b>Each of these tables consists of 129 columns specified below</b>
 <ol><li>
@@ -117,9 +117,9 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 
 # The run_analysis.R script
 
-IMPORTANT NOTE: load the plyr package before running this script.
+<b>IMPORTANT NOTE:</b> load the plyr package before running this script.
 
-The run_analysis.R script does the following:
+<b>The run_analysis.R script does the following:</b>
 <ol><li>
 Augment the rows of X_train to the rows of X_test to form a bigger table X. Note that the X_test comes first before the X_train. </li>
 In similar fashion, the following tables are also merged
