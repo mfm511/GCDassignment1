@@ -112,7 +112,8 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <ol><li>
 1. linktosignal – This is an identifier that links the summary table to the inertial signal tables
 </li></ol>
-     <b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
+
+<b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
 
 
 # The run_analysis.R script
