@@ -1,9 +1,9 @@
 
-### Code Book
+# Code Book
 
 The data set consists of 10 tables, one for the summary and 9 for the signal tables.
 
-## Table 1: summary  (saved as summary.txt)
+### Table 1: summary  (saved as summary.txt)
 
 1. ID – it is a unique identifier for the table and serves as the link from summary table to the 9 Inertial Signal tables. It is the concatenation of the values of Subject and Activity. (Note that the concatenated string is chosen arbitrarily and I could have chosen numbers instead to uniquely identify each row. I did not intend to compress the two variable into one column and in fact both variables exist in the table)
 2. Subject – Refers to the subject who perform the activity experiment. The subjects are labeled from 1 to 30.
@@ -98,7 +98,7 @@ The variables 4 through 82 refers to the mean and standard deviation-related mea
 82. fBodyBodyGyroJerkMag-std()
 
 
-## Signal Tables
+### Signal Tables
 
 Consists of nine inertial signal tables with 129 columns each. The tables are listed below.
 1. body_acc_x - The body acceleration signal in X - axis obtained by subtracting the gravity from the total acceleration.
@@ -115,7 +115,11 @@ Each of these tables consists of 129 columns specified below
 1. linktosignal – This is an identifier that links the summary table to the inertial signal tables
      The columns 2 through 129 is a vector with 128 elements representing the signal
 
-### The run_analysis.R script
+
+
+
+
+# The run_analysis.R script
 
 IMPORTANT NOTE: load the plyr package before running this script.
 
