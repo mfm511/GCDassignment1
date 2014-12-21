@@ -120,18 +120,7 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <b>The run_analysis.R script does the following:</b>
 <ol><li>
 Augment the rows of X_train to the rows of X_test to form a bigger table X. Note that the X_test comes first before the X_train. </li>
-In similar fashion, the following tables are also merged
-     * y_test and y_train
-     * subject_test and subject train
-     * body_acc_x_test and body_acc_x_train
-     * body_acc_y_test and body_acc_y_train
-     * body_acc_z_test and body_acc_z_train
-     * body_gyro_x_test and body_gyro_x_train
-     * body_gyro_y_test and body_gyro_y_train
-     * body_gyro_z_test and body_gyro_z_train
-     * total_acc_x_test and total_acc_x_train
-     * total_acc_y_test and total_acc_y_train
-     * total_acc_z_test and total_acc_z_train
+In similar fashion, the following tables are also merged y_test and y_train, subject_test and subject train, body_acc_x_test and body_acc_x_train, body_acc_y_test and body_acc_y_train ,body_acc_z_test and body_acc_z_train, body_gyro_x_test and body_gyro_x_train, body_gyro_y_test and body_gyro_y_train, body_gyro_z_test and body_gyro_z_train, total_acc_x_test and total_acc_x_train, total_acc_y_test and total_acc_y_train, total_acc_z_test and total_acc_z_train
 
 <li> Determine which of 561 columns of the features table are mean and standard deviation measurement. (Based on the result of this, there are 79 mean and standard deviation related features) </li>
 <li> Remove some of the columns of x (79 were left out of 561) that are not related to mean and standard deviation. 
