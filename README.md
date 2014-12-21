@@ -8,16 +8,7 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <ol>
 <li> ID – it is a unique identifier for the table and serves as the link from summary table to the 9 Inertial Signal * tables. It is the concatenation of the values of Subject and Activity. (Note that the concatenated string is chosen arbitrarily and I could have chosen numbers instead to uniquely identify each row. I did not intend to compress the two variable into one column and in fact both variables exist in the table) </li>
 <li> Subject – Refers to the subject who perform the activity experiment. The subjects are labeled from 1 to 30.</li>
-<li> Activity – refers to one of the six activities performed by the subjects. Its value is either of the six activities below:
-*	a. WALKING
-*	b. WALKING_UPSTAIRS
-*	c. WALKING_DOWNSTAIRS
-*	d. SITTING
-*	e. STANDING
-*	f. LAYING 
-</li>
-
-<b>The variables 4 through 82 refers to the mean and standard deviation-related measurements. The variables are listed below. </b>
+<li> Activity – refers to one of the six activities performed by the subjects. Its value is either of the six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING </li>
 <li>  tBodyAcc-mean()-X </li>
 <li>  tBodyAcc-mean()-Y </li>
 <li>  tBodyAcc-mean()-Z </li>
@@ -99,11 +90,13 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 <li>  fBodyBodyGyroJerkMag-std() </li>
 </ol>
 
+<b>The variables 4 through 82 refers to the mean and standard deviation-related measurements. The variables are listed below. </b>
+
 ### Signal Tables
 
-<ol>
 <b>Consists of nine inertial signal tables with 129 columns each. The tables are listed below.</b>
 
+<ol>
 <li> body_acc_x - The body acceleration signal in X - axis obtained by subtracting the gravity from the total acceleration. </li>
 <li> body_acc_y - The body acceleration signal in Y - axis obtained by subtracting the gravity from the total acceleration. </li>
 <li> body_acc_z - The body acceleration signal in Z - axis obtained by subtracting the gravity from the total acceleration. </li>
@@ -120,9 +113,6 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 1. linktosignal – This is an identifier that links the summary table to the inertial signal tables
 </li></ol>
      <b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
-
-
-
 
 
 # The run_analysis.R script
