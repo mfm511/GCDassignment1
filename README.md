@@ -110,7 +110,7 @@ The data set consists of 10 tables, one for the summary and 9 for the signal tab
 
 <b>Each of these tables consists of 129 columns specified below</b>
 <ol><li>
-1. linktosignal – This is an identifier that links the summary table to the inertial signal tables
+linktosignal – This is an identifier that links the summary table to the inertial signal tables
 </li></ol>
 
 <b>The columns 2 through 129 is a vector with 128 elements representing the signal</b>
