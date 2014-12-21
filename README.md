@@ -128,6 +128,6 @@ In similar fashion, the following tables are also merged y_test and y_train, sub
 <li> Add two columns in x (at the start). The first column refers to the subject and the second column to the activity.</li>
 <li> Add another column named ID at the start by concatenating subject and activity for each row. (Since there are 30 unique values of subject and 6 unique values of activity, there are 6 * 30 = 180 unique values for the new column ID)</li>
 <li> Divide the rows of x into 180 groups based on the value of their ID column. For each of these 180 groups, calculate the column means for the columns 4 - 82. Save the means into another table. This new table has 180 rows and 82 columns; 180 rows for the unique values of ID and 82 columns for the 79 mean and standard deviation related measurements and the additional 3 columns from numbers 5 and 6). This new table will then be saved as summary.txt</li>
-<li> For each of the nine signal tables, add another columns named linktosignal to link the signal tables to the summary. This column has 180 unique values similar to the of the ID column in summary.txt. This column identifies in which row in the summary table the observation (rows in signal table) is included.</li>
+<li> For each of the nine signal tables, add another column named linktosignal to link the signal tables to the summary. This column has 180 unique values similar to the of the ID column in summary.txt. This column identifies in which row in the summary table the observation (rows in signal table) is included.</li>
 </ol>
 
