@@ -1,7 +1,7 @@
 
 # Code Book
 
-The data set consists of 10 tables, one for the summary and 9 for the signal tables.
+The data set consists of 10 tables, one for the summary and 9 for the signal tables. I included the 9 inertial signal tables just to show the source of the summary table (although, I did not compute the mean and std deviation-related features directly from it).
 
 ### Table 1: summary  (saved as summary.txt)
 
