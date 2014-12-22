@@ -1,4 +1,5 @@
 ## load data
+library(plyr)
 features <- read.table("features.txt")
 activitylabels <- read.table("activity_labels.txt")
 
